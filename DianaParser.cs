@@ -65,25 +65,6 @@ namespace VoxSimPlatform
             //}
             public static string JSONOutput(string currentInput)
             {
-                //running commands 
-                //System.Diagnostics.Process proc = new System.Diagnostics.Process();
-                //proc.StartInfo.FileName = "/bin/bash";
-                //proc.StartInfo.WorkingDirectory = "/Users/Nada/Downloads/stanford-corenlp-4.2.2";
-                ////proc.StartInfo.CreateNoWindow = false;
-                ////proc.StartInfo.Arguments = "ls";
-                //proc.StartInfo.UseShellExecute = false;
-                //proc.StartInfo.RedirectStandardInput = true;
-                //proc.StartInfo.RedirectStandardOutput = true;
-                //proc.Start();
-                //proc.StandardInput.WriteLine("java -mx4g -cp \"*\" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000");
-                ////proc.StandardInput.Flush();
-                //proc.StandardInput.Close();
-                //proc.WaitForExit();
-                //Console.WriteLine(proc.StandardOutput.ReadToEnd());
-                //Console.ReadKey();
-
-                // create a request 
-
                 //denver
                 //WebRequest request = WebRequest.Create("http://129.82.44.141:9000/?properties={%22annotators%22%3A%22tokenize%2Cssplit%2Cpos%2Clemma%2Cner%2Cparse%22%2C%22outputFormat%22%3A%22json%22}");
 
